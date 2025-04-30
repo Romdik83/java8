@@ -8,7 +8,7 @@ public class CountService {
                 money = money - expenses;
                 money = money / 3;
             } else {
-                money = money + income - expenses;
+              money = money + income - expenses;
             }
         }
         return count;
